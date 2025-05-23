@@ -33,7 +33,7 @@ A GUI application for merging panoramic video files from camera recordings. This
 ### System Requirements
 - Windows 10 or later
 - Python 3.6 or higher (for running from source)
-- FFmpeg binary (bundled with application)
+- FFmpeg binary to be placed inside ffmpeg/bin/ffmpeg.exe
 
 ### Python Dependencies
 - `py2exe` - For Windows executable compilation (development only)
@@ -187,9 +187,7 @@ Camera-Pan-Video-Combiner/
 ├── compile_to_exe.bat         # Compilation script
 ├── ffmpeg/                    # Bundled FFmpeg
 │   └── bin/
-│       ├── ffmpeg.exe         # FFmpeg binary
-│       ├── ffprobe.exe        # FFprobe binary
-│       └── ffplay.exe         # FFplay binary
+│       └── ffmpeg.exe         # FFmpeg binary
 └── dist/                      # Compiled executable (after compilation)
     └── CameraPanVideoCombiner.exe
 ```

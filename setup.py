@@ -17,9 +17,7 @@ import os
 data_files = [
     # Include the FFmpeg binaries
     ("ffmpeg/bin", [
-        "ffmpeg/bin/ffmpeg.exe",
-        "ffmpeg/bin/ffprobe.exe", 
-        "ffmpeg/bin/ffplay.exe"
+        "ffmpeg/bin/ffmpeg.exe"
     ]),
     # Include FFmpeg documentation
     ("ffmpeg", ["ffmpeg/LICENSE.txt"])
